@@ -25,7 +25,7 @@ Backend api to allow organizations to manage a simple inventory (products or ser
 
 ### API Documentation
 
-- Access Api documentation [here](https://documenter.getpostman.com/view/11729281/2s8Z75SpUK)
+- Access Api documentation [here](https://documenter.getpostman.com/view/11729281/2s935kN5fD)
 
 ### API Endpoints
 
