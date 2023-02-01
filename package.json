@@ -1,0 +1,38 @@
+{
+  "name": "summitech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node-dev src/index.ts",
+    "clean": "del ./build/*",
+    "build": "yarn run clean && tsc",
+    "start": "yarn run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+   "engines" : { 
+    "npm" : "8.19.2",
+    "node" : "16.18.0"
+  },
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "cookie-session": "^2.0.0",
+    "del-cli": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.14.3",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.28.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.16",
+    "@types/jsonwebtoken": "^9.0.1"
+  }
+}
