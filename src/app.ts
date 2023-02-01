@@ -5,12 +5,10 @@ import cookieSession from 'cookie-session';
 
 import { NotFoundError } from './errors';
 import { errorHandler } from './middlewares';
+
 import { currentUserRouter, signinRouter, signoutRouter, signupRouter } from './routes/auth';
 import { createProductRouter, getAllProductsRouter, getProductByIdRouter, updateProductRouter } from './routes/product';
-import { createStockRouter } from './routes/stock/create-stock';
-import { getAllStocksRouter } from './routes/stock/get-all-stock';
-import { getStockByBatchIdRouter } from './routes/stock/get-stock-by-batch-id';
-import { updateStockRouter } from './routes/stock/update-stock';
+import { createStockRouter, getAllStocksRouter, getStockByBatchIdRouter, updateStockRouter } from './routes/stock';
 
 
 const app = express()
